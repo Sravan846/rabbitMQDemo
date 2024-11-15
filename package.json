@@ -1,0 +1,19 @@
+{
+  "name": "demo-rabbitmq1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config.js",
+  "scripts": {
+    "start": "nodemon producer.js",
+    "start1": "nodemon consum.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
